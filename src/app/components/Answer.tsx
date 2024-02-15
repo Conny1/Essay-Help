@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Svg from "./Svg";
 
 type Props = {
   setanswer: React.Dispatch<React.SetStateAction<boolean>>;
@@ -9,7 +8,7 @@ type Props = {
 
 const Answers = ({ des, list, setanswer }: Props) => {
   return (
-    <div className=" flex flex-col max-w-96 bg-green-100 p-3 rounded-lg   ">
+    <div className=" flex flex-col md:max-w-96 bg-green-100 p-3 rounded-lg   ">
       <button
         onClick={(ev) => {
           ev.stopPropagation();

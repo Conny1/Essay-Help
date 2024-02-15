@@ -12,7 +12,7 @@ const Questions = ({ des, quiz, list }: Props) => {
   return (
     <div
       onClick={() => setanswer(true)}
-      className="  max-w-96  p-3 rounded-lg w-1/2 outline outline-2 outline-lime-900 cursor-pointer hover:bg-green-100 hover:translate-y-1 transition "
+      className=" w-full  md:max-w-96  p-3 rounded-lg md:w-1/2 outline outline-2 outline-lime-900 cursor-pointer hover:bg-green-100 hover:translate-y-1 transition "
     >
       <section>
         <p className=" mt-4 font-bold ">{quiz}</p>

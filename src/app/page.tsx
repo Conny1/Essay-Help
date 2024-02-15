@@ -1,4 +1,5 @@
 "use client";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Questions from "./components/Questions";
 import Review from "./components/Review";
@@ -110,7 +111,7 @@ export default function Home() {
             Achieve academic excellence with our range of services.
           </p>
         </div>
-        <div className="w-full flex justify-around mt-16 min-h-96 flex-wrap  ">
+        <div className="w-full flex justify-around mt-16 min-h-96 flex-wrap gap-9  ">
           {sevicesOfered.map((item, i) => {
             return <Services key={i} {...item} />;
           })}
@@ -125,11 +126,30 @@ export default function Home() {
         </section>
       </div>
 
-      <h3 className="text-2xl font-semibold mt-16">FAQ</h3>
-      <section className=" mt-8 mb-16 w-full max-w-5xl flex flex-col items-center justify-around gap-3 p-3">
+      <h3 id="faq" className="text-2xl font-semibold mt-16  ">
+        FAQ
+      </h3>
+      <section className="  mt-8 mb-16 w-full max-w-5xl flex flex-col items-center justify-around gap-3 p-3">
         {faq.map((item, i) => {
           return <Questions key={i} {...item} />;
         })}
+      </section>
+
+      <section
+        id="home"
+        className=" w-full bg-[url('../../public/images/footer.jpg')] bg-center bg-cover"
+      >
+        <footer className="w-full  text-white bg-gray-900 bg-opacity-70 ">
+          <Footer />
+        </footer>
+        <div className="bg-black bg-opacity-100 w-full h-40  flex items-center p-3 justify-center  ">
+          <div className=" w-full max-w-5xl">
+            <p className="max-w-2xl text-slate-400  ">
+              ©2024 For any queries, feel free to reach out to us at
+              papersmasters@gmail.com. We're here to help!
+            </p>
+          </div>
+        </div>
       </section>
     </main>
   );
