@@ -8,7 +8,7 @@ const Nav = () => {
   return (
     <nav className="flex h-28 w-full items-center justify-between max-w-7xl  ">
       <div>
-        <h1 className="text-white">Essay Help</h1>
+        <h1 className="text-white">ExamAidHub</h1>
       </div>
 
       <section className=" hidden flex-1  md:flex justify-between max-w-sm    ">

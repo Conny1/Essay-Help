@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 type Props = {
   setanswer: React.Dispatch<React.SetStateAction<boolean>>;
