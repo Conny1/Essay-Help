@@ -1,14 +1,20 @@
 import Footer from "@/app/components/Footer";
-import Link from "next/link";
+
 import React from "react";
 import ServicesNav from "../servicecomponent/ServicesNav";
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "study.com",
+  description:
+    "Do you find yourself struggling to juggle your online class  assignments alongside other academic commitments? Are you constantly thinking about phrases like 'pay someone to do my online class' or 'hire someone to take my online class'? Look no further! At  ExamAidHub.com, we specialize in offering expert solutions to  students seeking assistance with their online classes.",
+};
 
 const Study = () => {
   return (
     <main className=" mx-auto flex flex-col items-center  ">
       <ServicesNav title="study.com" />
 
-      <div className="mt-8 max-w-3xl w-full ">
+      <div className="mt-8 max-w-3xl w-full p-3 ">
         <section className="mb-8">
           <p className="text-lg leading-relaxed">
             Do you find yourself struggling to juggle your online class
@@ -66,10 +72,6 @@ const Study = () => {
         </footer>
         <div className="bg-black bg-opacity-100 w-full h-40  flex items-center p-3 justify-center  ">
           <div className=" w-full max-w-5xl">
-            <p className="max-w-2xl text-slate-400">
-              Reach Us:papersmasters@gmail.com
-            </p>
-
             <p className="max-w-2xl text-slate-400  ">
               ©2024 For any queries, feel free to reach out to us at
               papersmasters@gmail.com. We're here to help!

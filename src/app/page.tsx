@@ -63,9 +63,6 @@ export default function Home() {
         </footer>
         <div className="bg-black bg-opacity-100 w-full h-40  flex items-center p-3 justify-center  ">
           <div className=" w-full max-w-5xl">
-            <p className="max-w-2xl text-slate-400">
-              Reach Us:papersmasters@gmail.com
-            </p>
             <p className="max-w-2xl text-slate-400  ">
               ©2024ExamAidHub For any queries, feel free to reach out to us at
               papersmasters@gmail.com. We're here to help!

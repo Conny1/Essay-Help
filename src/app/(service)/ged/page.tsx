@@ -1,14 +1,19 @@
 import Footer from "@/app/components/Footer";
-
 import React from "react";
 import ServicesNav from "../servicecomponent/ServicesNav";
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "GED EXAMS",
+  description:
+    "  If you need help with the GED, we are the online experts to take exams for you. You'll need to score at least 145 points to pass. Passing the GED can help you get into college, earn college credits, and even get a better job.",
+};
 
 const Ged = () => {
   return (
     <main className=" mx-auto flex flex-col items-center  ">
       <ServicesNav title="GED EXAMS" />
 
-      <div className="mt-8 max-w-3xl w-full ">
+      <div className="mt-8 max-w-3xl w-full p-3">
         <section className="mb-8">
           <p className="text-lg leading-relaxed">
             We take your online GED exam test. We’ll help you every step of the
@@ -104,9 +109,6 @@ const Ged = () => {
         </footer>
         <div className="bg-black bg-opacity-100 w-full h-40  flex items-center p-3 justify-center  ">
           <div className=" w-full max-w-5xl">
-            <p className="max-w-2xl text-slate-400">
-              Reach Us:papersmasters@gmail.com
-            </p>
             <p className="max-w-2xl text-slate-400  ">
               ©2024 For any queries, feel free to reach out to us at
               papersmasters@gmail.com. We're here to help!

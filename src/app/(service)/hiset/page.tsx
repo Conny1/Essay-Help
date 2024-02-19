@@ -2,13 +2,19 @@ import Footer from "@/app/components/Footer";
 
 import React from "react";
 import ServicesNav from "../servicecomponent/ServicesNav";
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "HISET EXAMS",
+  description:
+    " Considering hiring someone to take your HISET test for you? Don't worry, ExamAidHub.com has got you covered! We offer a seamless and reliable solution, ensuring you a stress-free experience. Say  goodbye to your worries, embrace excellence, and trust  ExamAidHub.com as your dedicated partner on your journey to HISET success. Join us, where success isn't just a possibility but a certainty..",
+};
 
 const Hiset = () => {
   return (
     <main className=" mx-auto flex flex-col items-center  ">
       <ServicesNav title="HISET EXAMS" />
 
-      <div className="mt-8 max-w-3xl w-full ">
+      <div className="mt-8 max-w-3xl w-full p-3 ">
         <section className="mb-8">
           <p className="text-lg leading-relaxed">
             Considering hiring someone to take your HISET test for you? Don't
@@ -86,9 +92,6 @@ const Hiset = () => {
         </footer>
         <div className="bg-black bg-opacity-100 w-full h-40  flex items-center p-3 justify-center  ">
           <div className=" w-full max-w-5xl">
-            <p className="max-w-2xl text-slate-400">
-              Reach Us:papersmasters@gmail.com
-            </p>
             <p className="max-w-2xl text-slate-400  ">
               ©2024 For any queries, feel free to reach out to us at
               papersmasters@gmail.com. We're here to help!

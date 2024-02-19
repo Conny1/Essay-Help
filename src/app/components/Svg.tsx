@@ -15,7 +15,7 @@ const Svg = ({ svg }: { svg: string }) => {
           viewBox="0 0 40 40"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g fill="none" fill-rule="evenodd">
+          <g fill="none" fillRule="evenodd">
             <circle
               fill="#e4feec"
               className="fill-bg-light"
@@ -32,7 +32,7 @@ const Svg = ({ svg }: { svg: string }) => {
               d="M25.086 16.208l-1.2-1.2-5.4 5.4 1.2 1.2 5.4-5.4zM11 20.693l4.8 4.8 1.2-1.2-4.8-4.8-1.2 1.2z"
               fill="#076b00"
               className="fill-secondary"
-              fill-rule="nonzero"
+              fillRule="nonzero"
             ></path>
           </g>
         </svg>
@@ -44,7 +44,7 @@ const Svg = ({ svg }: { svg: string }) => {
           viewBox="0 0 40 40"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g fill="none" fill-rule="evenodd">
+          <g fill="none" fillRule="evenodd">
             <circle
               fill="#e4feec"
               className="fill-bg-light"
@@ -90,7 +90,7 @@ const Svg = ({ svg }: { svg: string }) => {
           viewBox="0 0 40 40"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g fill="none" fill-rule="evenodd">
+          <g fill="none" fillRule="evenodd">
             <circle
               fill="#e4feec"
               className="fill-bg-light"
@@ -98,7 +98,7 @@ const Svg = ({ svg }: { svg: string }) => {
               cy="20"
               r="20"
             ></circle>
-            <g fill-rule="nonzero">
+            <g fillRule="nonzero">
               <path
                 d="M19.607 19.275h.025a3.14 3.14 0 0 0 3.137-3.138A3.14 3.14 0 0 0 19.632 13 6.64 6.64 0 0 0 13 19.632a6.639 6.639 0 0 0 3.643 5.919 3.832 3.832 0 0 1-.862-2.425 3.855 3.855 0 0 1 3.826-3.85z"
                 fill="#86efac"
@@ -121,7 +121,7 @@ const Svg = ({ svg }: { svg: string }) => {
           viewBox="0 0 40 40"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g fill="none" fill-rule="evenodd">
+          <g fill="none" fillRule="evenodd">
             <circle
               className="fill-bg-light"
               fill="#e4feec"
@@ -150,7 +150,7 @@ const Svg = ({ svg }: { svg: string }) => {
           viewBox="0 0 40 40"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g fill="none" fill-rule="evenodd">
+          <g fill="none" fillRule="evenodd">
             <circle
               fill="#e4feec"
               className="fill-bg-light"

@@ -9,7 +9,7 @@ const Header = () => {
       <section className="flex justify-between w-full max-w-5xl  customheight ">
         <div className="   md:w-1/2 flex flex-col justify-between ">
           <h1 className=" text-4xl sm:text-5xl font-semibold   ">
-            Unlock Academic Success with Essay Help
+            Unlock Academic Success with ExamAidHub
           </h1>
           <p>
             Let our professional tutors handle your online classes, coursework,

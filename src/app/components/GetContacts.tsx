@@ -51,7 +51,7 @@ const ContactForm = ({ setmodal }: Props) => {
   };
 
   return (
-    <div className="fixed top-96 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+    <div className=" max-w-xl  w-full md:w-1/2 fixed top-96 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
       <form
         onSubmit={handleSubmit}
         className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"
